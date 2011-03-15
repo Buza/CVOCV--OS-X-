@@ -1,0 +1,25 @@
+
+CVOCV Update History
+--------------------
+
+Version 0.01: Initial Release.
+
+Version 0.011:
+  
+  - Examples: motion, opticalFlowLK, opticalFlowPyrLK, opticalFlowBM
+  
+Version 0.012:
+
+  -Functionality: 
+    Support for frame grabbing to allow things like background 
+    subtraction and back projection.
+   
+  -Examples: 
+    + Resizing: downsize4, downsize8
+    + Morphology: erode, dilate, open, close, adaptiveThresh
+    + Histogram: hueSatHistogram, backProject
+    + Segmentation: meanShift
+
+Version 0.0121:
+
+   -BugFix: Removed image reference to "noimage.png".
